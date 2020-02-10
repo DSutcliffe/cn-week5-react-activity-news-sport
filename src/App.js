@@ -16,7 +16,7 @@ function App() {
     <div class="headlineBody">
 
       <div class="newsHeadlines">
-        <h2 class="newsHeading">News Headlines ></h2>
+        <h2 class="newsHeading link">News Headlines</h2>
         <div class="newsStories">
           <Story source={News1} alt="anti-trump" headline="Anti-Trump protesters rally across US" footer="USA" />
           <Story source={News2} alt="corona" headline="UK sees rise in 'coronavirus racism' after outbreak in China" footer="UK / CHINA" />
@@ -25,7 +25,7 @@ function App() {
       </div>
 
       <div class="sportHeadlines">
-        <h2 class="newsHeading">Sport Headlines ></h2>
+        <h2 class="newsHeading link">Sport Headlines</h2>
         <div class="sportsStories">
           <Story source={Sport1} alt="mufc" headline="Munich Air Disaster: Man Utd's fallen eight remembered" footer="MUFC" />
           <Story source={Sport2} alt="nike" headline="Why 'game changing' Nike shoes are so controversial" footer="RUNNING" />

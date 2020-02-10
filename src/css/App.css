@@ -7,6 +7,7 @@ img {
   margin: 20px;
   background-color: #ebe6e6;
   display: flex;
+  width: auto;
 }
 
 .newsHeading, .storyContainer {
@@ -17,15 +18,40 @@ img {
   padding-bottom: 20px;
   color: #4d4646;
 }
+
 .storyContainer {
   background-color: white;
   display: flex;
 }
 
 .rightSide {
+  width: 350px;
+  /* width: 50%; */
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rhsHeadline {
+  display: flex;
+  vertical-align: top;
 }
 
 .rhsCategory {
   color: darkgray;
+}
+
+h6 {
+  margin: 0;
+  display: inline-block;
+}
+
+
+
+/* Adds > sign to class link */
+.link:after {
+  content: ">";
+  position: relative;
+  right: -10px;
 }
